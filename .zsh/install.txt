@@ -1,6 +1,6 @@
 ripgrep
 fd-find
-fzf ( via `git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf` )
+fzf ( via `git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install` )
 vim
 antibody ( via `curl -sfL git.io/antibody | sh -s - -b /usr/local/bin` )
 

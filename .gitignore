@@ -3,5 +3,6 @@
 .ssh
 .bash_history
 .fzf
+.fzf.zsh
 .viminfo
 
