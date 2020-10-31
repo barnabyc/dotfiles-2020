@@ -1,0 +1,7 @@
+if ! [ -s ~/.zsh/.plugins.sh ]; then
+  if type antibody &>/dev/null; then
+    antibody bundle < ~/.zsh/plugins.list > ~/.zsh/.plugins.sh
+  fi
+fi
+
+source ~/.zsh/.plugins.sh

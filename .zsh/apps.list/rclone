@@ -1,0 +1,6 @@
+if type rclone &>/dev/null; then
+  if [ ! -s /usr/share/zsh/vendor-completions/_rclone ]; then
+    rclone genautocomplete zsh
+  fi
+fi
+

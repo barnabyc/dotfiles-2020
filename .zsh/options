@@ -1,0 +1,14 @@
+SAVEHIST=10000
+HISTSIZE=10000
+HISTFILE=~/.zsh/.history
+setopt INC_APPEND_HISTORY
+setopt SHARE_HISTORY
+setopt EXTENDED_HISTORY
+
+
+# todo: are these all Oh-My-Zsh ??
+ENABLE_CORRECTION="true"
+COMPLETION_WAITING_DOTS="true"
+HIST_STAMPS="yyyy-mm-dd"
+
+

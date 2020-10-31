@@ -1,0 +1,18 @@
+alias mv='mv -v'
+alias cp='cp -Rvi'
+alias h='history'
+alias own='sudo chown -R $USER .'
+alias d='du -h -d 1'
+
+alias gp='git pull'
+alias gbd='for k in `git branch|perl -pe s/^..//`;do echo -e `git show --pretty=format:"%Cgreen%ci %Cblue%cr%Creset" $k|head -n 1`\\t$k;done|sort'
+alias rsyncmove="rsync --partial --progress --append --rsh=ssh -r -h --remove-source-files"
+
+system_type=$(uname -s)
+if [ "$system_type" = "Darwin" ]; then
+    alias l='ls -alhFG'
+    alias gx='/Applications/GitX.app/Contents/Resources/gitx -c'
+else
+    alias l='ls -alhF --color=auto'
+fi
+

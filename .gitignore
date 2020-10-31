@@ -1,0 +1,7 @@
+.zcompdump
+.cache
+.ssh
+.bash_history
+.fzf
+.viminfo
+

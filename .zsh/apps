@@ -1,0 +1,6 @@
+[ -s ~/.zsh/apps.list/nvm ] && source ~/.zsh/apps.list/nvm
+[ -s ~/.zsh/apps.list/fzf ] && source ~/.zsh/apps.list/fzf
+[ -s ~/.zsh/apps.list/borg ] && source ~/.zsh/apps.list/borg
+[ -s ~/.zsh/apps.list/rclone ] && source ~/.zsh/apps.list/rclone
+
+# todo: enumerate the folder and source each file

@@ -1,0 +1,11 @@
+# PROMPT='%F{36}%n%F{250}@%F{245}%m %F{magenta}%~%F{214} [%f '
+PROMPT='%(!.%F{196}%n.%{36}%n)%F{250}@%F{245}%m %F{magenta}%~%F{214} [%f '
+RPROMPT='$(git_super_status) %F{214}] %F{green}%D{%K:%M} %f'
+
+# note: if the git integration is slow:
+# via https://github.com/starcraftman/zsh-git-prompt
+#GIT_PROMPT_EXECUTABLE="haskell"
+
+# todo
+# https://unix.stackexchange.com/questions/1397/change-prompt-color-depending-on-user-or-root-in-zsh
+
